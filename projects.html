@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <link rel="stylesheet" href="css/site.css">
+    <title>James R Kelly - Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <div class="grid-header">
+            <header>
+                <div class="monogram"><span class="monogram-letters">J</span></div>
+                <div><h1>James R. Kelly - Profile and Portfolio</h1></div>
+            </header>
+        </div>
+        <div class="grid-nav">
+            <nav>
+                <ul class="navbar">
+                    <li class="nav-item"><a href="index.html">Profile</a></li>
+                    <li class="nav-item"><a href="projects.html">Portfolio</a></li>
+                    <li class="nav-item"><a href="http://schedulemanager.jamesrkelly.net">Schedule Manager Demo</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="grid-main">
+            <main>
+                <h1>Portfolio</h1>
+                <h2>Projects</h2>
+                <ul>
+                    <li class="profile-item">
+                        <div style="text-align: center; font-size: 18pt;">Schedule Manager - ASP.NET Core 6.0 MVC Web Application</div> <br />
+                        <ul class="portfolio-link-list">
+                            <li class="portfolio-link-list-item"><a href="https://schedulemanager.jamesrkelly.net">Functional Demo</a></li>
+                            <li class="portfolio-link-list-item"><a href="https://github.com/JamesKelly23/IT488Agile/tree/master/">Code Repository - Github</a></li>
+                        </ul>
+                        <div style=" width: 100%; display: flex; flex-flow: row nowrap;">
+                            <a href="Images/ScheduleManagerScreen1.jpg"><img class="screen-preview" src="Images/ScheduleManagerScreen1.jpg" /></a>
+                            <a href="Images/ScheduleManagerScreen2.jpg"><img class="screen-preview" src="Images/ScheduleManagerScreen2.jpg" /></a>
+                            <a href="Images/ScheduleManagerScreen3.jpg"><img class="screen-preview" src="Images/ScheduleManagerScreen3.jpg" /></a>
+                        </div>
+                        <ul class="profile-children">
+                            <li>This application was designed for use by the management team and crew of a restaurant to manage and view their schedules, availabilities, and time off requests. The application also allows the users to trade shifts with other employees.</li>
+                            <li>Developed using the Agile framework and a scrum team of four, led by myself as the scrum master</li>
+                            <li>Uses modern MVC framework to serve dynamic content</li>
+                            <li>Application interfaces with Microsoft SQL Server 2019</li>
+                            <li>Program uses the Razor Pages framework using CSHTML files to generate content</li>
+                            <li>All database write interactions are facilitated through stored procedures for security</li>
+                            <li>SSL facilitates a secure connection to the server through Cloudflare with End to End encryption enabled</li>
+                            <li>Data access is facilitated through Database Context classes to prevent errors and separate data access from the controller and view layers</li>
+                        </ul>
+                    </li>
+                    <li class="profile-item">
+                        <div style="text-align: center; font-size: 18pt;">D2L Hourly Upload Script</div> <br />
+                        <ul class="portfolio-link-list">
+                            <li class="portfolio-link-list-item"><a href="https://github.com/JamesKelly23/D2LHourlyUpload/">Code Repository - Github</a></li>
+                        </ul>
+                        <div style=" width: 100%; display: flex; flex-flow: row nowrap;">
+                            <a href="Images/D2LHourlyUploadScreen1.jpg"><img class="screen-preview" src="Images/D2LHourlyUploadScreen1.jpg" /></a>
+                            <a href="Images/D2LHourlyUploadScreen2.jpg"><img class="screen-preview" src="Images/D2LHourlyUploadScreen2.jpg" /></a>
+                        </div>
+                        <ul class="profile-children">
+                            <li>This script facilitates EDI communications between a college's Main ERP system to a third party distance learning application to keep them synchronized</li>
+                            <li>Coding was done using Microsoft Powershell, and uses WinSCP to facilitate the SFTP upload</li>
+                            <li>The script is fully configurable via a .INI file that is read upon script start</li>
+                            <li>The script archives all files sent to ensure there is a backup in case of issues</li>
+                            <li>The transcript of each run is also stored with each archive, and is emailed to a list of users specified in the configuration file</li>
+                            <li>When multiple batches are generated between runs (script is designed to be run on an hourly basis), the script sorts them and uploads them in the proper order to prevent data dependency issues</li>
+                            <li>When the script encounters an error, whether it is a file permission error or an upload error, the script aborts, and sends an email alert along with the transcript of the run to a list of IT Support personnel configured in the INI file.</li>
+                        </ul>
+                    </li>
+                    <li class="profile-item">
+                        <div style="text-align: center; font-size: 18pt;">Personal Profile and Portfolio Website</div> <br />
+                        <ul class="portfolio-link-list">
+                            <li class="portfolio-link-list-item"><a href="https://github.com/JamesKelly23/D2LHourlyUpload/">Code Repository - Github</a></li>
+                        </ul>
+                        <div style=" width: 100%; display: flex; flex-flow: row nowrap;">
+                            <a href="Images/PortfolioScreen1.jpg"><img class="screen-preview" src="Images/D2LHourlyUploadScreen1.jpg" /></a>
+                            <a href="Images/PortfolioScreen2.jpg"><img class="screen-preview" src="Images/D2LHourlyUploadScreen2.jpg" /></a>
+                            <a href="Images/PortfolioScreen3.jpg"><img class="screen-preview" src="Images/D2LHourlyUploadScreen3.jpg" /></a>
+                        </div>
+                        <ul class="profile-children">
+                            <li>This script facilitates EDI communications between a college's Main ERP system to a third party distance learning application to keep them synchronized</li>
+                            <li>Coding was done using Microsoft Powershell, and uses WinSCP to facilitate the SFTP upload</li>
+                            <li>The script is fully configurable via a .INI file that is read upon script start</li>
+                            <li>The script archives all files sent to ensure there is a backup in case of issues</li>
+                            <li>The transcript of each run is also stored with each archive, and is emailed to a list of users specified in the configuration file</li>
+                            <li>When multiple batches are generated between runs (script is designed to be run on an hourly basis), the script sorts them and uploads them in the proper order to prevent data dependency issues</li>
+                            <li>When the script encounters an error, whether it is a file permission error or an upload error, the script aborts, and sends an email alert along with the transcript of the run to a list of IT Support personnel configured in the INI file.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </main>
+        </div>
+        <div class="grid-footer">
+            <footer>
+                <ul>
+                    <li>&copy; James Kelly 2023 </li>
+                    <li><a href="index.html">Profile</a></li>
+                    <li><a href="projects.html">Portfolio</a></li>
+                    <li><a href="http://schedulemanager.jamesrkelly.net">Schedule Manager Demo</a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

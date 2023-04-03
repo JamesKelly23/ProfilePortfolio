@@ -1,0 +1,272 @@
+.container {
+    padding: 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px auto auto 60px;
+    grid-gap: 1px 1px;
+    background-color: #c7ddcc;
+    background-image: linear-gradient(135deg, #b7cdbc, #e7fdec 60%, #fffeff);
+}
+
+.screen-preview {
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2pt solid white;
+    box-shadow: 3px 3px 6px #16123f;
+    border-radius: 8px;
+}
+
+.grid-footer {
+    grid-area: 4 / 1 / 4 / span 2;
+}
+
+.grid-header {
+    grid-area: 1 / 1 / 1 / span 2;
+}
+
+.grid-nav {
+    grid-area: 2 / 1 / 2 / span 2;
+}
+
+.grid-main {
+    grid-area: 3 / 1 / 3 / span 2;
+}
+
+.pivot-container {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    align-items:center;
+}
+
+.headshot {
+    border: 2pt solid #16123f;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px #16123f;
+    margin-left: 25px;
+    height: 300px;
+}
+
+.portfolio-link-list {
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-items: center;
+    list-style-type: none;
+}
+.portfolio-link-list-item {
+    font-weight: bolder;
+    color: black;
+    margin: auto;
+    border: 2px solid #16123f;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #16123f;
+    text-align: center;
+    padding: 5px;
+    background-image: radial-gradient(100px circle at 10px 10px, #ffffff44, #75c9b744 10%,#65b9a722 90%, #55a99700), linear-gradient(#a5f9f7, #95f9e7 50%,#85d9c7 90%, #75c9b7);
+}
+
+nav {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    max-width: 1024px;
+    background-color: #75c9b7;
+    font-weight: bold;
+    border: 2px groove #16123f;
+    box-shadow: 3px 3px 6px #16123f;
+    z-index: 1;
+    background-image: radial-gradient(700px circle at 0px 0px, #ffffff88, #75c9b788 10%,#65b9a722 90%, #55a99700), linear-gradient(90deg, #95f9d7, #75c9b7 50%,#65b9a7 90%, #55a997);
+}
+
+.navbar {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-items: center;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.nav-item {
+    margin: 8px;
+    border: 2px solid #16123f;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #16123f;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background-image: radial-gradient(100px circle at 10px 10px, #ffffff44, #75c9b744 10%,#65b9a722 90%, #55a99700), linear-gradient(#a5f9f7, #95f9e7 50%,#85d9c7 90%, #75c9b7);
+    z-index:3;
+}
+
+.profile-item {
+    font-size:16pt;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+    border: 2px groove #16123f;
+    box-shadow: 3px 3px 10px #16123f;
+    list-style: none;
+    padding: 10px;
+    color: white;
+    background-image: radial-gradient(ellipse at bottom left, #406e3c, #607e5c 50%,#809e7c );
+    border-radius: 5px;
+}
+/*background-image: radial-gradient(ellipse at bottom left, #95f9d7, #75c9b7 50%,#65b9a7 90%, #55a997 )*/
+.profile-children {
+    font-weight: normal;
+    list-style: circle;
+    list-style: radial-gradient(closest-side, white, #ffe26a 15%, #bba132 85%, transparent 95%);
+    font-size: 12pt;
+}
+
+.profile-subitem {
+    font-weight:normal;
+    font-size: 14pt;
+}
+
+.skills-item {
+    font-weight:bold;
+}
+
+.skill-children {
+    display: flex;
+    flex-flow:row wrap;
+}
+
+    .skill-children li {
+        background-color: darkgray;
+        border: 1pt solid #16123f;
+        box-shadow: 2px 2px 4px #16123f;
+        background-image: radial-gradient(circle 25px at 8px 8px, lightgray, darkgray);
+        border-radius: 3px;
+        list-style-type: none;
+        margin-left: 10px;
+        margin-top: 5px;
+        padding: 2px 6px 2px 6px;
+        font-family: monospace;
+        font-size: 12pt;
+    }
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+body {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    color: #16123f;
+    font-size:12pt;
+}
+
+main {
+    padding: 20px;
+    border: 1pt solid #13123f;
+    box-shadow: 3px 3px 6px #16123f;
+}
+
+footer {
+    background-color: #abd699;
+    border: 2px groove #16123f;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    list-style-type: none;
+    vertical-align: middle;
+    box-shadow: 3px 3px 6px #16123f;
+    background-image: linear-gradient(#88b679,#abd699 30%);
+}
+
+    footer ul {
+        display: flex;
+        flex-flow: row nowrap;
+        list-style-type: none;
+    }
+    footer ul li {
+        margin-left:20px;
+    }
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 100px;
+    vertical-align: middle;
+    background-color: #abd699;
+    background-image: linear-gradient(#abd699, #88b679 70%);
+    border: 2px groove #16123f;
+    box-shadow: 3px 3px 6px #16123f;
+    z-index: 2;
+}
+
+.monogram {
+    margin: 50px;
+    text-align: center;
+    background-color: #ffe26a;
+    background-image: radial-gradient(circle 150px at 20px 20px, white, #ffe26a 15%, #bba132 50%);
+    width: 70px;
+    height: 70px;
+    border: 1pt groove #ffe26a;
+    border-radius: 100px;
+    color: black;
+    font-size: 48pt;
+    box-shadow: 3px 3px 6px #16123f;
+    vertical-align: middle;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+@media only screen and (min-width:800px) {
+    .grid-footer {
+        grid-area: 4 / 1 / 4 / span 2;
+    }
+
+    .grid-header {
+        grid-area: 1 / 1 / 1 / span 2;
+    }
+
+    .grid-nav {
+        grid-area: 2 / 1 / 3 / span 1;
+    }
+
+    .grid-main {
+        grid-area: 2 / 2 / 3 / span 1;
+    }
+
+    .pivot-container {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+}
+
+@media only screen and (max-width:799px) {
+    h1 {
+        font-size: 18pt;
+    }
+
+    h2 {
+        font-size: 16pt;
+    }
+
+    a {
+        font-size: 16pt;
+    }
+
+    .headshot {
+        width: 60%;
+        height: auto;
+    }
+
+    footer {
+        flex-flow:column;
+    }
+    footer a {
+        font-size: 20px;
+    }
+}
